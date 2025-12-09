@@ -124,20 +124,25 @@ func httpError(w http.ResponseWriter, code int, msg string) {
 
 - ` curl -Method POST -Uri "http://localhost:8080/api/tasks" -Headers @{"Content-Type"="application/json"} -Body '{"title":"Выучить chi"}'` тестирование создания задачи
 
-image.png
+<img width="1091" height="458" alt="screen1" src="https://github.com/user-attachments/assets/f600f04b-6db3-4119-b5f4-b95259b7db6b" />
+
 
 - `curl -Method GET -Uri "http://localhost:8080/api/tasks"` тестирование получения данных 
 
+<img width="1087" height="458" alt="screen2" src="https://github.com/user-attachments/assets/17d515dc-d75e-4a11-a9ce-8aa202a99390" />
 
 
 - ` curl -Method GET -Uri "http://localhost:8080/api/tasks/1"` тестирование получения данных по ID
 
+<img width="1091" height="456" alt="screen3" src="https://github.com/user-attachments/assets/f864ee9b-f4be-4dee-8107-3c598dece063" />
 
 
 - ` curl -Method PUT -Uri "http://localhost:8080/api/tasks/1" -Headers @{"Content-Type"="application/json"} -Body '{"title":"Learn chi deeper","done":true}'` тестирование обновления
 
+<img width="1084" height="449" alt="screen4" src="https://github.com/user-attachments/assets/e9f8ab32-e098-4d14-965c-13938c43b94a" />
 
 
 - ` curl -Method DELETE -Uri "http://localhost:8080/api/tasks/1"` тестирование удаления
 
+<img width="1076" height="310" alt="screen5" src="https://github.com/user-attachments/assets/93785316-6d96-432f-bf68-b481b94b2cce" />
 
